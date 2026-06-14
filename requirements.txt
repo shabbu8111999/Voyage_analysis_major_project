@@ -1,0 +1,29 @@
+# Data handling
+pandas
+numpy
+
+
+# Machine Learning
+scikit-learn
+xgboost
+joblib
+
+
+# EDA and Visual
+matplotlib
+seaborn
+
+
+# Jupyter Notebooks
+jupyterlab
+
+
+# Flask REST API
+flask
+flask-cors
+pydantic
+gunicorn
+
+
+# Utilities
+python-dotenv
