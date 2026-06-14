@@ -159,19 +159,15 @@ uv pip install -r requirements.txt
 
 ## How to Run
 
-### Step 1 — Run the notebooks in order
-```bash
-uv run jupyter lab
-```
 Open and run each notebook from 01 to 06 in order.
 After notebook 06 finishes, the `models/saved/` folder will have all 3 pkl files.
 
-### Step 2 — Start the API
+### Step 1 — Start the API
 ```bash
 uv run python api/app.py
 ```
 
-### Step 3 — Test in browser
+### Step 2 — Test in browser
 ```
 http://localhost:5000/health   → check server is running
 http://localhost:5000/test     → open the prediction form
